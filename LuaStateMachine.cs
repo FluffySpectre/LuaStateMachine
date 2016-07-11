@@ -30,7 +30,7 @@ public class LuaStateMachine<T> where T : class {
 	}
 
 	/// <summary>
-	/// Changes the state of the global.
+	/// Changes the current global state to a new one
 	/// </summary>
 	/// <param name="newState">New state.</param>
 	public void ChangeGlobalState(LuaTable newState) {
